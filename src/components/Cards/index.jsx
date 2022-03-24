@@ -1,17 +1,13 @@
 import React, {useEffect, useState} from 'react';
 import { getProducts, getProducto} from '../redux/actions'
 import { useDispatch, useSelector} from 'react-redux';
-import  { CardsContainer,  Contenedor} from './cardsStyled' 
 import CorouselSwiper from '../corousel/indexCarousel';
 import SideBar from '../sideBar/indexSIdeBar';
 import Navbar3 from '../navbar3/indexNavbar3';
 import 'animate.css';
 
 
-import CardItem from '../card';
-import Navbar from '../navbar';
 
-import Navbar2 from '../navbar2/indexNavbar2';
 
 export default function Inicio() {
 
