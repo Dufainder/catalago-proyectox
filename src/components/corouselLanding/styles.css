@@ -6,14 +6,14 @@
     height: 500px;
   }
   
-  @media (min-width: 768px) {
+  @media (m-width: 768px) {
     .swiper-slide {
       width: 250px;
       height: 100%;
     }
   }
   
-  .swiper-slide div {
+  .swiper-slide .imageSwiper {
     display: block;
     width: 100%;
     height: 90%;

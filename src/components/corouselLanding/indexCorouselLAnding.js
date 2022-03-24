@@ -61,7 +61,7 @@ const fotosLanding = ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRX
         
    <SwiperSlide>
 
-       <div style={{  
+       <div className='imageSwiper' style={{  
           backgroundImage: `url(${e})`,
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
