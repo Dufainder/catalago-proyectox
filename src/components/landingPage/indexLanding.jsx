@@ -1,12 +1,13 @@
 import React from 'react';
+import CorouselLAnding from '../corouselLanding/indexCorouselLAnding';
 import './stylesLanding.css';
 
 
 
 export default function Landing() {
   return (
-
-    <header>
+   <>
+    {/* <header>
      <div  class="header__img-container" > 
          <img src="./assets/img/logo.svg" alt="logo"/>
      </div>   
@@ -20,6 +21,13 @@ export default function Landing() {
     
     <a href="#planes" class="header__button" >Conoce nuestros planes<span></span></a>
    
-    </header>
+    </header> */}
+
+    <CorouselLAnding></CorouselLAnding>
+    
+
+   </>
+
+
   )
 }
